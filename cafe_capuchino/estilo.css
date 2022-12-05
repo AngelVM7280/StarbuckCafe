@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(imagen/fondo.jpg);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    background-color: #CED4DA;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    background-color: #6C757D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+article{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 80%;
+    float: left;
+   
+}
+
+aside{
+    background-color: black;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    /*height: 130px;*/
+    background-color: #6C757D;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado img{
+    height: 50px;
+}
+
+nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    margin: 20px;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:20px;
+}
+
+#menu a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu a:hover{
+    background-color: beige;
+    color: black;
+}
+
+#menu2, #menu3{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu2 a, #menu3 a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menu2 a:hover, #menu3 a:hover{
+    background-color: beige;
+    color: black;
+}
+
+#regreso{
+
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#regreso a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#regreso a:hover{
+    background-color: beige;
+    color:#343A40 ;
+}
+
+.caja1{
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    float: left;
+    width: 30%;
+}
+
+.caja2{
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    float: left;
+    width: 70%;
+}
+
+.caja3{
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.etc{
+    height: 240px;
+    background-color:#6C757D ;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#foto{
+    width: 340px;
+    height: 340px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#opcion1{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    width: 30%;
+    float: left;
+    background-color: #ADB5BD;
+}
+
+#opcion2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    width: 30%;
+    float: left;
+    background-color: #ADB5BD;
+}
+
+#opcion3{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    width: 30%;
+    float: left;
+    background-color: #ADB5BD;
+}
+
+#tamaño{
+    height: 300px;
+    width: 290px;
+}
+
+h2{
+    padding: 10px;
+}
+
+#comprar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#comprar a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+#comprar a:hover{
+    background-color: beige;
+    color: black;
+}
