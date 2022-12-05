@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(imagenes/fondo.jpg);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    background-color: #CED4DA;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: #6C757D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    /*height: 130px;*/
+    background-color: #6C757D;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado img{
+    height: 50px;
+}
+
+nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contenido img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.contenedor{
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+}
+
+.item{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    color: white;
+    width: 250px;
+    height: 390px;
+    color: black;
+    border-radius: 10px;
+}
+
+#item1{
+    background-color: beige;
+    
+}
+
+#item2{
+    background-color: beige;
+}
+
+#item3{
+    background-color: beige;
+}
+
+#item4{
+    background-color: beige;
+}
+
+#item5{
+    background-color: beige;
+}
+
+.contenedor img{ 
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:20px;
+}
+
+#menu a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu a:hover{
+    background-color: beige;
+    color: black;
+}
+
+#menu2, #menu3{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu2 a, #menu3 a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menu2 a:hover, #menu3 a:hover{
+    background-color: beige;
+    color: black;
+}

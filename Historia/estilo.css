@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 60%;
+    background-color: whitesmoke;
+    margin: auto;
+    /* flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    background-color: #007654;
+    padding: 20px;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+#menu{
+    width: 50%;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Times New Roman;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    /* flex hijo */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu a:hover{
+    color: darkgrey;
+}
+
+#starbucks img{
+    width: 700px;
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+
+.contenido{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Times New Roman;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    text-align: justify;
+    font-family: Helvetica;
+}
+
+.hijo{
+    width: 250px;
+    background-color: #007654;
+    /* método largo
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    método corto */
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+    margin: 30px;
+    float: left;
+}
+
+img{
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+footer{
+    width: 100%;
+    background-color: #007654;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-family: Times New Roman;
+}
+
+#menu2 a:hover{
+    color: darkgrey;
+}

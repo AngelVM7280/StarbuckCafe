@@ -1,0 +1,139 @@
+body{
+    background-image: url(Imagenes/Fondo\ verde.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+i{
+    padding: 10px;
+}
+#Facebook{
+    font-size: 50px;
+    color: #3b5998;
+}
+#Twitter{
+    font-size: 50px;
+    color: #08a0e9;
+}
+
+#Instagram{
+    font-size: 50px;
+    color: #DD2A7B;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Kalam', cursive;
+
+}
+
+#Cafe{
+    float: right;
+    width: 200px;
+    padding: 20px;
+}
+
+#menu li{
+    text-size-adjust: none;
+    display: inline-block;
+}
+#menu a{
+    text-decoration: none;
+    background-color: #0b421a;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px;
+    margin: -2px;
+}
+#menu a:hover{
+    background-color: #604c4c;
+}
+#menu a:active{
+    background-color: #eac784;
+    color: #0b421a;
+}
+
+#izquierda a{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#derecha a{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#preparacion{
+    float: right;
+    width: 800px;
+    margin-left: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#cerrado{
+    background-color: #eac784;
+    padding: 3px;
+    border: 3px solid black;
+}
+#tamaño{
+    font-size: 22px;
+}
+
+h2{
+    background-color: #0b421a;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 3px;
+}
+
+.dato{
+    font-size: 25px;
+    color: black;
+}
+.solo3{
+    font-size: 28px;
+    font-style: italic;
+    color: #0b421a;
+    margin: 10px;
+}
+
+#Embolo{
+    width: 500px;
+    float: right;
+    margin-left: 45px;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#Vertido{
+    width: 500px;
+    float: left;
+    margin-right: 45px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#Cafetera{
+    width: 500px;
+    float: right;
+    margin-left: 45px;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+a{
+    text-decoration: none
+}
